@@ -1,11 +1,13 @@
 import React from 'react'
 
+import "./styles.css"
+
 export default function App() {
   return (
     <div className="calculator-grid">
       <div className='output'>
-        <div className='previous-operand'></div>
-        <div className='current-operand'></div>
+        <div className='previous-operand'>345345</div>
+        <div className='current-operand'>3456345</div>
       </div>
       <button className='span-two'>AC</button>
       <button>DEL</button>
